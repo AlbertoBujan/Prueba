@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Document</title>
+</head>
+<body>
+    <form method="GET" action="">
+        <div>
+            <fieldset>
+                <legend>Datos</legend>
+                <div class="required">
+                    <label>Nombre:
+                    <input required placeholder="Inserte su nombre" type="text" name="Nombre"/>
+                </label>
+                </div>
+            <div class="required">
+            <label>Correo electronico:
+                <input required placeholder="Inserte su email" type="email" name="email"/>
+            </label>
+            </div>
+            <div>
+                <label>URL personal:
+                    <input placeholder="Inserte su URL personal" type="url" name="url"/>
+                </label>
+            </div>
+            </fieldset>
+            <fieldset>
+                <legend>Cosas random</legend>
+                <div>
+                    <label>Fecha</label>:
+                        <input type="date" name="fecha"/>
+                </div>
+                <div>
+                    <label>Tiempo</label>:
+                        <input type="time" name="tiempo"/>
+                </div>
+                <div>
+                    <label>Fecha y hora</label>:
+                    <input type="datetime" name="fechaHora"/>
+                </div>
+                <div>
+                    <label>Mes</label>:
+                        <input type="month" name="mes"/>
+                </div>
+                <div>
+                    <label>Semana</label>:
+                        <input type="week" name="semana"/>
+                </div>
+                <div>
+                    <label>Número</label>:
+                        <input type="number" min="-10" max="10" name="numero"/>
+                </div>
+                <div>
+                    <label>Telefono</label>:
+                        <input placeholder="Inserte su teléfono" type="tel" name="telefono"/>
+                </div>
+                <div>
+                    <label>Termino de busqueda</label>:
+                        <input placeholder="Búsqueda" type="search" name="busqueda"/>
+                </div>
+                <div>
+                    <label>Color favorito</label>:
+                        <input placeholder="Inserte su color favorito" type="color" name="DNI"/>
+                </div>
+
+
+
+            </fieldset>
+        <div>
+            <p>Review</p>
+            <label for="review"></label>
+            <textarea id="review" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+    
+</body>
+</html>

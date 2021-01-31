@@ -1,0 +1,120 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: grey;
+  border-radius: 10px;
+  margin: 5px;
+}
+header h1 {
+  margin: 0;
+}
+header h2 {
+  margin: 10px;
+}
+
+main {
+  display: flex;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin: 8%;
+  background-color: rgb(128, 128, 128);
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: grey;
+  width: 10%;
+  height: 400px;
+  padding: 25px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+}
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+
+table {
+  border: 1px solid black;
+  margin: 5% 29%;
+  border-radius: 4px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+nav p {
+  text-align: center;
+}
+
+nav ul {
+  /* text-align: center; */
+  list-style: none;
+  padding: 0;
+}
+
+article ul {
+  list-style: none;
+}
+
+footer {
+  /* color: white */
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+footer div a {
+  color: white;
+}
+footer div a:visited {
+  color: grey;
+}
+
+.icons {
+  height: 20px;
+  width: 20px;
+  border-radius: 1px;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+th {
+  color: white;
+  background-color: black;
+}
+
+.required input {
+  border-color: red;
+}
+
+input:focus {
+  background-color: red;
+}
+
+legend {
+  color: red;
+}
